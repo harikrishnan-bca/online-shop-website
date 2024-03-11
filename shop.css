@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* navdar */
+.navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+ }
+ .navbar img{
+    /* width: 100px; */
+    height: 45px;
+ }
+#navbarSupportedContent .nav-link{
+    padding: 0px 18px;
+    /* margin: 0px 20px; */
+    /* margin: 0px 12px; */
+    /* font-size: 20px; */
+    color: black;
+    transition: 0.3s ease;
+}
+    /* @media only screen and(min-width:480px) and(max-width:991px) {
+        #navbarSupportedContent > ul > li:nth-child(n) > a {
+            padding: 50px 0px;
+
+    } 
+ }*/
+ .navbar-light #navbarSupportedContent .nav-link:hover,
+ .navbar-light #navbarSupportedContent .nav-link.active{
+    color: coral;
+ }
+#navbarSupportedContent .fa-solid{
+    padding: 5px 7px;
+    cursor: pointer;
+    /* font-weight: 500; */
+    transition: 0.3s ease;
+    font-size: 1.2rem;
+
+}
+.navbar-light #navbarSupportedContent .fa-solid:hover,
+.navbar-light #navbarSupportedContent .fa-solid.active{
+   color: coral;
+}
+/* feature */
+.Products{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.Products img{
+    transition: 0.3s all;
+}
+.Products:hover img{
+    /* transition: 0.3s all; */
+    opacity: 0.7;
+
+}
+.Products a{
+    background-color: coral;
+    color: #fff;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.Products:hover a{
+    background-color: #fb774b;
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.3s all;
+}
+.star{
+    padding: 10px 0;
+}
+/* hr line*/
+hr{
+    width: 80px;
+    height: 5vh;
+    background-color:coral;
+}
+/* img */
+.Products img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+/* pagination */
+.pagination .page-item .page-link{
+color: #000;
+}
+.pagination .page-item .page-link:hover{
+    color: #000;
+    background-color: #000;
+    color: #fff;
+    }
+    
+
+
+/* footer */
+footer{
+    background-color: #222222;
+}
+footer h5{
+   color: #d8d8dd;
+   font-weight: 700;
+   font-size: 1.2rem;
+}
+footer h6{
+    color: #d8d8dd;
+    font-weight: 600;
+    font-size: 1rem;
+ }
+ footer li{
+    padding-bottom: 4px;
+ }
+ footer li a{
+    font-size: 0.8rem;
+    color: #999;
+ }
+ footer li a:hover{
+    font-size: 0.8rem;
+    color: #d8d8d8;
+ }
+ footer p{
+    color: #999;
+    font-size: 0.8rem;
+ }
+ footer .copy-right a{
+    color: #000;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    justify-content: center;
+ }
