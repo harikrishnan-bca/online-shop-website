@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dress Details</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+   #cloths img{
+    transition: 0.3s all;
+    box-sizing: border-box;
+    height: 400px;
+    object-fit: cover;
+    ;background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col{
+  margin: 5px;
+  /* flex-basis: 24%; */
+  cursor: pointer;
+}
+.sproduct select{
+  display: block;
+  padding: 5px 10px;
+}
+.sproduct input {
+  width: 50px;
+  padding: 2px;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  /* margin-top: 10px !important; */
+
+}
+
+    </style>
+  </head>
+  <body>
+
+           <!-- navbar -->
+           <nav class="navbar navbar-light navbar-expand-lg bg-white py-3 fixed-top ">
+            <div class="container">
+                <img src="../img/Free_Sample_By_Wix.jpg" class="img-fluid" alt="logo1">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link " href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../Shop.html">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Fashion Outfit</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../big3/twomid.html">More Outfit</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                  <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                  <i class="fa-duotone fa-cart-shopping fa-beat"></i>
+                  </li> -->
+                  <li class="nav-item">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </li>
+                  <li class="nav-item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+              </div>
+            </div>
+          </nav>
+
+  <!-- SELECTIONs -->
+  <section class="sproduct container my-5 pt-2">
+    <div class="row mt-5">
+      <div class="col-12 col-md-12 col-lg-5" >
+        <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/dress/u/7/f/xxl-bfup03-the-vendorvilla-original-imagvz743b3bvyys.jpeg?q=70" class="img-fluid w-100 pb-1" id="MainImg" alt="">
+
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/dress/5/0/w/l-bfup03-shreeji-boutique-original-imagvz59h6xjvvzg.jpeg?q=70" class=" small-img" width="100%" >
+          </div>
+          <div class="small-img-col">
+            <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/dress/z/b/z/l-bfup02-shreeji-boutique-original-imagvz59vmkbzzuu.jpeg?q=70" class="small-img" width="100%" >
+          </div>
+          <div class="small-img-col">
+            <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/dress/j/f/f/l-bfup03-shreeji-boutique-original-imagvz59pnphqtpx.jpeg?q=70" class="small-img"  alt="" width="100%">
+          </div>
+          <div class="small-img-col">
+            <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/dress/5/d/n/l-bfup03-shreeji-boutique-original-imagvz59wxvhkwsq.jpeg?q=70" class="small-img "  width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-7">
+        <h6>Sheetal Associates  </h6>
+        <h3 class="py-4">Women Fit and Flare Orange, Black, Green Dress</h3>
+        <h2 class="">$ 123.00</h2>
+        <select class="  my-4 ">
+          <option value="#">select size</option>
+          <option value="#">Small</option>
+          <option value="#">x-small</option>
+          <option value="#">large</option>
+          <option value="#">X-Large</option>
+        </select>
+        <input type="number" value="1" class=" ">
+       <a href="#" class="btn btn-warning  mx-3">ADD TO CARD</a>
+
+        <H5 class="mt-5 mb-5">Product Details</H5>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta accusamus, rem distinctio sit molestias at itaque quibusdam beatae ut. Accusamus consequatur necessitatibus recusandae impedit, maxime mollitia quo minima optio quibusdam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, modi eaque blanditiis dolore temporibus, dolorem, tenetur necessitatibus assumenda odio obcaecati in non sed labore facilis qui voluptatibus quis distinctio eos!
+        </span>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- cloths -->
+<section id="cloths" class="my-5">
+    <div class="container text-center py-5">
+      <h3>Top Selling Sarees</h3>
+      <hr class="mx-auto">
+      <p>Here you can check Out Related Products With Fair Price on rymo.</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+      <div class="Products text-center col-lg-3   col-md-4 col-12">
+     <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/d/b/r/free-8-vaii-unstitched-original-imagswaxhzzz435g.jpeg?q=70" class="img-fluid " alt="feature">
+        <div class="star">
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+        </div>
+        <h4 class="p-name">Sport Boots</h4>
+        <h5 class="p-price "><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 2599.00 </h5>
+        <!-- <h5 class="p-price"><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 1200.00 </h5> -->
+  
+        <a href="#" class="btn btn-warning">Buy Now</a>
+      </div>
+      <div class="Products text-center col-lg-3   col-md-4 col-12">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/z/s/m/-original-imagvbtnmbxtr3td.jpeg?q=70" class="img-fluid mb-3" alt="feature">
+        <div class="star">
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+        </div>
+        <h4 class="p-name">Sport Boots</h4>
+        <h5 class="p-price"><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 1200.00 </h5>
+        <a href="#" class="btn btn-warning">Buy Now</a>
+      </div>
+      <div class="Products text-center col-lg-3   col-md-4 col-12">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/h/p/3/free-2804s2019j-siril-unstitched-original-imagn4bmuc8jfsvf.jpeg?q=70" class="img-fluid mb-3" alt="feature">
+        <div class="star">
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+        </div>
+        <h4 class="p-name">Sport Boots</h4>
+        <h5 class="p-price"><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 499.00 </h5>
+        <a href="#" class="btn btn-warning">Buy Now</a>
+      </div>
+      <div class="Products text-center col-lg-3   col-md-4 col-12">
+        <img src="https://rukminim2.flixcart.com/image/612/612/kzygpzk0/sari/l/e/o/free-2331s805-samah-unstitched-original-imagbugf6gqxaegh.jpeg?q=70" class="img-fluid mb-3" alt="feature">
+        <div class="star">
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+        </div>
+        <h4 class="p-name">Sport Boots</h4>
+        <h5 class="p-price"><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 1359.00 </h5>
+        <a href="#" class="btn btn-warning">Buy Now</a>
+      </div>
+      <div class="Products text-center col-lg-3   col-md-4 col-12">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/l/x/j/free-saree-silk-sarisp-unstitched-original-imagn4akdtrdz3fw.jpeg?q=70" class="img-fluid mb-3" alt="feature">
+        <div class="star">
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+        </div>
+        <h4 class="p-name">Sport Boots</h4>
+        <h5 class="p-price"><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 1359.00 </h5>
+        <a href="#" class="btn btn-warning">Buy Now</a>
+      </div>
+      <div class="Products text-center col-lg-3   col-md-4 col-12">
+        <img src="https://rukminim2.flixcart.com/image/612/612/ktep2fk0/sari/p/l/k/free-kf-parvati-sky-blue-skaidway-designer-studio-unstitched-original-imag6rekh7hkz8hd.jpeg?q=70" class="img-fluid mb-3" alt="feature">
+        <div class="star">
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+        </div>
+        <h4 class="p-name">Sport Boots</h4>
+        <h5 class="p-price"><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 1359.00 </h5>
+        <a href="#" class="btn btn-warning">Buy Now</a>
+      </div>
+      <div class="Products text-center col-lg-3   col-md-4 col-12">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/m/n/j/free-monica-fashdeal-unstitched-original-imagzcw4njzfdjhe.jpeg?q=70" class="img-fluid mb-3" alt="feature">
+        <div class="star">
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+        </div>
+        <h4 class="p-name">Sport Boots</h4>
+        <h5 class="p-price"><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 1359.00 </h5>
+        <a href="#" class="btn btn-warning">Buy Now</a>
+      </div>
+      <div class="Products text-center col-lg-3   col-md-4 col-12">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/a/p/u/free-dc-gajari-shopwell-unstitched-original-imagnhbqhqkg2xhj.jpeg?q=70" class="img-fluid mb-3" alt="feature">
+        <div class="star">
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ed9b0c;"></i>
+        </div>
+        <h4 class="p-name">Sport Boots</h4>
+        <h5 class="p-price"><span><i class="fa-solid fa-indian-rupee-sign "> </i></span> 1359.00 </h5>
+        <a href="#" class="btn btn-warning">Buy Now</a>
+      </div>
+      
+    </div>
+   
+  
+  </section>
+ <!--footer-->
+ <footer class="mt-5 py-5 ">
+  <div class="row container pt-5 mx-auto" >
+    <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+      <img src="../img/Free_Sample_By_Wix.jpg" class="img-fluid" width="120px" alt="">
+      <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eum. Provident maiores omnis officiis mollitia exercitationem nobis beatae cumque labore ratione expedita.</p>
+
+    </div>
+    <div class="footer-two col-lg-3 col-md-6 col-12 mb-3">
+      <h5 class="pb-2">Features</h5>
+      <ul class="text-uppercase list-unstyled">
+        <li><a href="../big3/twomid.html">men</a></li>
+        <li><a href="../big3/twomid.html">women</a></li>
+        <li><a href="../Shop.html">New Arraivals</a></li>
+        <li><a href="../big3/twomid.html#boys-cloth">boys</a></li>
+        <li><a href="../index.html#cloths">girls</a></li>
+        <li><a href="../big3/oneside.html">Shoes</a></li>
+        <li><a href="../big3/treeend.html">watches</a></li>
+      </ul>
+
+    </div>
+    <div class="footer-two col-lg-3 col-md-6 col-12 mb-3">
+      <h5 class="pb-2">Contact Us</h5>
+      <div> 
+        <h6 class="text-uppercase">Address</h6>
+        <p class="text-uppercase">123 street name, city, us</p>
+      </div>
+      <div> 
+        <h6 class="text-uppercase">phone number</h6>
+        <p>+91 9025386554</p>
+      </div>
+      <div> 
+        <h6 class="text-uppercase">email address</h6>
+        <p >harikrishnan@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-two col-lg-3 col-md-6 col-12 mb-3">
+      <h5 class="pb-2">Instagram</h5>
+      <div class="row">
+        <img src="../img/insta/1.jpg" class="img-fluid w-25 h-100 m-2" alt="">
+        <img src="../img/insta/2.jpg" class="img-fluid w-25 h-100 m-2" alt="">
+        <img src="../img/insta/3.jpg" class="img-fluid w-25 h-100 m-2" alt="">
+        <img src="../img/insta/4.jpg" class="img-fluid w-25 h-100 m-2" alt="">
+        <img src="../img/insta/5.jpg" class="img-fluid w-25 h-100 m-2" alt="">
+        <img src="../img/insta/6.jpg" class="img-fluid w-25 h-100 m-2" alt="">
+
+      </div>
+   
+
+    </div>
+  </div>
+  <div class="copy-right">
+    <div class="row container mx-auto">
+      <div class="col-lg-3 col-md-6 col-12 mb-3">
+      <img src="../img/payment.png" alt="">
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 mb-3">
+       <p> Blackeye ecommerce @ 2023. All Right Reserved</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 pt-2">
+         <a href="#"><i class="fa-brands fa-facebook fa-2xl px-1" style="color: #0f5ee6;"></i></a>
+       <a href="#"><i class="fa-brands fa-square-whatsapp fa-2xl px-1" style="color: #1fc140;"></i></a>
+         <a href="#"><i class="fa-brands fa-linkedin fa-2xl px-1" style="color: #3378f0;"></i></a>
+         <a href="#"><i class="fa-brands fa-square-instagram fa-2xl px-1" style="color: #f316e0;"></i></a>
+
+          </div>
+    </div>
+  </div>
+
+</footer>
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<Script>
+var MainImg = document.getElementById('MainImg');
+var smallimg = document.getElementsByClassName('small-img');
+
+smallimg[0].onclick = function(){
+  MainImg.src = smallimg[0].src;
+}
+smallimg[1].onclick = function(){
+  MainImg.src = smallimg[1].src;
+}
+smallimg[2].onclick = function(){
+  MainImg.src = smallimg[2].src;
+}
+smallimg[3].onclick = function(){
+  MainImg.src = smallimg[3].src;
+}
+</Script>
+  </body>
+</html>
